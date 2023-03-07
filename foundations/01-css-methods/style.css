@@ -5,3 +5,13 @@ div {
     text-align: center;
     font-weight: bold;
 }
+
+.box-one{
+    padding: 100px;
+    margin: 100px;
+    border: 10px solid rgb(255, 0 , 0);
+    height: 100px;
+    width: 100px;
+    border-color: aqua;
+
+}
