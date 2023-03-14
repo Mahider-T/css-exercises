@@ -1,8 +1,20 @@
 .header  {
   display: flex; /*edited here*/
-  flex:1;
   font-family: monospace;
   background: papayawhip;
+  align-items: center;
+  height: 70px; /* Adds space vertically to show the background color above and below the "LOGO"*/ 
+  
+}
+
+/*added this class selector below*/
+
+.left-links{
+  margin-left: 8px; /* Adds space in the left-most part of the header*/
+}
+
+.right-links{
+  margin-right: 8px; /* Adds space in the right-most part of the header*/
 }
 
 .logo {
@@ -11,12 +23,17 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
+  margin:auto;/*Pushes away the contents on right and left side of the "LOGO" */
+
+  
 }
 
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
   display: flex;
+  gap: 8px;/*Adds gaps between the li elements*/
+  padding-left: 0px;/*remove all the extra space the ul elements took on the left before*/
 }
 
 a {
