@@ -31,6 +31,10 @@ body {
 .buttons button{
   margin-left: 8px;
 }
+a {
+  color: #666;
+  text-decoration: none;
+}
 .header .right-links{
   display: flex;
   gap:10px;
